@@ -1,0 +1,599 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E4792AF624F0A7A00089E826 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4792AF524F0A7A00089E826 /* AppDelegate.swift */; };
+		E4792AF824F0A7A00089E826 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4792AF724F0A7A00089E826 /* SceneDelegate.swift */; };
+		E4792AFA24F0A7A00089E826 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4792AF924F0A7A00089E826 /* ContentView.swift */; };
+		E4792AFC24F0A7A10089E826 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E4792AFB24F0A7A10089E826 /* Assets.xcassets */; };
+		E4792AFF24F0A7A10089E826 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E4792AFE24F0A7A10089E826 /* Preview Assets.xcassets */; };
+		E4792B0224F0A7A10089E826 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E4792B0024F0A7A10089E826 /* LaunchScreen.storyboard */; };
+		E4792B0D24F0A7A10089E826 /* ShowerAlarmTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4792B0C24F0A7A10089E826 /* ShowerAlarmTests.swift */; };
+		E4792B1824F0A7A10089E826 /* ShowerAlarmUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4792B1724F0A7A10089E826 /* ShowerAlarmUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E4792B0924F0A7A10089E826 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E4792AEA24F0A7A00089E826 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E4792AF124F0A7A00089E826;
+			remoteInfo = ShowerAlarm;
+		};
+		E4792B1424F0A7A10089E826 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E4792AEA24F0A7A00089E826 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E4792AF124F0A7A00089E826;
+			remoteInfo = ShowerAlarm;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E4792AF224F0A7A00089E826 /* ShowerAlarm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShowerAlarm.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E4792AF524F0A7A00089E826 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E4792AF724F0A7A00089E826 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		E4792AF924F0A7A00089E826 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		E4792AFB24F0A7A10089E826 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E4792AFE24F0A7A10089E826 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E4792B0124F0A7A10089E826 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E4792B0324F0A7A10089E826 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E4792B0824F0A7A10089E826 /* ShowerAlarmTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShowerAlarmTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E4792B0C24F0A7A10089E826 /* ShowerAlarmTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowerAlarmTests.swift; sourceTree = "<group>"; };
+		E4792B0E24F0A7A10089E826 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E4792B1324F0A7A10089E826 /* ShowerAlarmUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShowerAlarmUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E4792B1724F0A7A10089E826 /* ShowerAlarmUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowerAlarmUITests.swift; sourceTree = "<group>"; };
+		E4792B1924F0A7A10089E826 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E4792AEF24F0A7A00089E826 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4792B0524F0A7A10089E826 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4792B1024F0A7A10089E826 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E4792AE924F0A7A00089E826 = {
+			isa = PBXGroup;
+			children = (
+				E4792AF424F0A7A00089E826 /* ShowerAlarm */,
+				E4792B0B24F0A7A10089E826 /* ShowerAlarmTests */,
+				E4792B1624F0A7A10089E826 /* ShowerAlarmUITests */,
+				E4792AF324F0A7A00089E826 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E4792AF324F0A7A00089E826 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E4792AF224F0A7A00089E826 /* ShowerAlarm.app */,
+				E4792B0824F0A7A10089E826 /* ShowerAlarmTests.xctest */,
+				E4792B1324F0A7A10089E826 /* ShowerAlarmUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E4792AF424F0A7A00089E826 /* ShowerAlarm */ = {
+			isa = PBXGroup;
+			children = (
+				E4792AF524F0A7A00089E826 /* AppDelegate.swift */,
+				E4792AF724F0A7A00089E826 /* SceneDelegate.swift */,
+				E4792AF924F0A7A00089E826 /* ContentView.swift */,
+				E4792AFB24F0A7A10089E826 /* Assets.xcassets */,
+				E4792B0024F0A7A10089E826 /* LaunchScreen.storyboard */,
+				E4792B0324F0A7A10089E826 /* Info.plist */,
+				E4792AFD24F0A7A10089E826 /* Preview Content */,
+			);
+			path = ShowerAlarm;
+			sourceTree = "<group>";
+		};
+		E4792AFD24F0A7A10089E826 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				E4792AFE24F0A7A10089E826 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		E4792B0B24F0A7A10089E826 /* ShowerAlarmTests */ = {
+			isa = PBXGroup;
+			children = (
+				E4792B0C24F0A7A10089E826 /* ShowerAlarmTests.swift */,
+				E4792B0E24F0A7A10089E826 /* Info.plist */,
+			);
+			path = ShowerAlarmTests;
+			sourceTree = "<group>";
+		};
+		E4792B1624F0A7A10089E826 /* ShowerAlarmUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E4792B1724F0A7A10089E826 /* ShowerAlarmUITests.swift */,
+				E4792B1924F0A7A10089E826 /* Info.plist */,
+			);
+			path = ShowerAlarmUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E4792AF124F0A7A00089E826 /* ShowerAlarm */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E4792B1C24F0A7A10089E826 /* Build configuration list for PBXNativeTarget "ShowerAlarm" */;
+			buildPhases = (
+				E4792AEE24F0A7A00089E826 /* Sources */,
+				E4792AEF24F0A7A00089E826 /* Frameworks */,
+				E4792AF024F0A7A00089E826 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ShowerAlarm;
+			productName = ShowerAlarm;
+			productReference = E4792AF224F0A7A00089E826 /* ShowerAlarm.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E4792B0724F0A7A10089E826 /* ShowerAlarmTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E4792B1F24F0A7A10089E826 /* Build configuration list for PBXNativeTarget "ShowerAlarmTests" */;
+			buildPhases = (
+				E4792B0424F0A7A10089E826 /* Sources */,
+				E4792B0524F0A7A10089E826 /* Frameworks */,
+				E4792B0624F0A7A10089E826 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E4792B0A24F0A7A10089E826 /* PBXTargetDependency */,
+			);
+			name = ShowerAlarmTests;
+			productName = ShowerAlarmTests;
+			productReference = E4792B0824F0A7A10089E826 /* ShowerAlarmTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E4792B1224F0A7A10089E826 /* ShowerAlarmUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E4792B2224F0A7A10089E826 /* Build configuration list for PBXNativeTarget "ShowerAlarmUITests" */;
+			buildPhases = (
+				E4792B0F24F0A7A10089E826 /* Sources */,
+				E4792B1024F0A7A10089E826 /* Frameworks */,
+				E4792B1124F0A7A10089E826 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E4792B1524F0A7A10089E826 /* PBXTargetDependency */,
+			);
+			name = ShowerAlarmUITests;
+			productName = ShowerAlarmUITests;
+			productReference = E4792B1324F0A7A10089E826 /* ShowerAlarmUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E4792AEA24F0A7A00089E826 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1150;
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = song;
+				TargetAttributes = {
+					E4792AF124F0A7A00089E826 = {
+						CreatedOnToolsVersion = 11.5;
+					};
+					E4792B0724F0A7A10089E826 = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = E4792AF124F0A7A00089E826;
+					};
+					E4792B1224F0A7A10089E826 = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = E4792AF124F0A7A00089E826;
+					};
+				};
+			};
+			buildConfigurationList = E4792AED24F0A7A00089E826 /* Build configuration list for PBXProject "ShowerAlarm" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E4792AE924F0A7A00089E826;
+			productRefGroup = E4792AF324F0A7A00089E826 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E4792AF124F0A7A00089E826 /* ShowerAlarm */,
+				E4792B0724F0A7A10089E826 /* ShowerAlarmTests */,
+				E4792B1224F0A7A10089E826 /* ShowerAlarmUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E4792AF024F0A7A00089E826 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4792B0224F0A7A10089E826 /* LaunchScreen.storyboard in Resources */,
+				E4792AFF24F0A7A10089E826 /* Preview Assets.xcassets in Resources */,
+				E4792AFC24F0A7A10089E826 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4792B0624F0A7A10089E826 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4792B1124F0A7A10089E826 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E4792AEE24F0A7A00089E826 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4792AF624F0A7A00089E826 /* AppDelegate.swift in Sources */,
+				E4792AF824F0A7A00089E826 /* SceneDelegate.swift in Sources */,
+				E4792AFA24F0A7A00089E826 /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4792B0424F0A7A10089E826 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4792B0D24F0A7A10089E826 /* ShowerAlarmTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4792B0F24F0A7A10089E826 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4792B1824F0A7A10089E826 /* ShowerAlarmUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E4792B0A24F0A7A10089E826 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E4792AF124F0A7A00089E826 /* ShowerAlarm */;
+			targetProxy = E4792B0924F0A7A10089E826 /* PBXContainerItemProxy */;
+		};
+		E4792B1524F0A7A10089E826 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E4792AF124F0A7A00089E826 /* ShowerAlarm */;
+			targetProxy = E4792B1424F0A7A10089E826 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E4792B0024F0A7A10089E826 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E4792B0124F0A7A10089E826 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E4792B1A24F0A7A10089E826 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E4792B1B24F0A7A10089E826 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E4792B1D24F0A7A10089E826 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"ShowerAlarm/Preview Content\"";
+				DEVELOPMENT_TEAM = 83U6U777WC;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = ShowerAlarm/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.songzi.ShowerAlarm;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E4792B1E24F0A7A10089E826 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"ShowerAlarm/Preview Content\"";
+				DEVELOPMENT_TEAM = 83U6U777WC;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = ShowerAlarm/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.songzi.ShowerAlarm;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E4792B2024F0A7A10089E826 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 83U6U777WC;
+				INFOPLIST_FILE = ShowerAlarmTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.songzi.ShowerAlarmTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ShowerAlarm.app/ShowerAlarm";
+			};
+			name = Debug;
+		};
+		E4792B2124F0A7A10089E826 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 83U6U777WC;
+				INFOPLIST_FILE = ShowerAlarmTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.songzi.ShowerAlarmTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ShowerAlarm.app/ShowerAlarm";
+			};
+			name = Release;
+		};
+		E4792B2324F0A7A10089E826 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 83U6U777WC;
+				INFOPLIST_FILE = ShowerAlarmUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.songzi.ShowerAlarmUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ShowerAlarm;
+			};
+			name = Debug;
+		};
+		E4792B2424F0A7A10089E826 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 83U6U777WC;
+				INFOPLIST_FILE = ShowerAlarmUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.songzi.ShowerAlarmUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ShowerAlarm;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E4792AED24F0A7A00089E826 /* Build configuration list for PBXProject "ShowerAlarm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4792B1A24F0A7A10089E826 /* Debug */,
+				E4792B1B24F0A7A10089E826 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E4792B1C24F0A7A10089E826 /* Build configuration list for PBXNativeTarget "ShowerAlarm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4792B1D24F0A7A10089E826 /* Debug */,
+				E4792B1E24F0A7A10089E826 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E4792B1F24F0A7A10089E826 /* Build configuration list for PBXNativeTarget "ShowerAlarmTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4792B2024F0A7A10089E826 /* Debug */,
+				E4792B2124F0A7A10089E826 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E4792B2224F0A7A10089E826 /* Build configuration list for PBXNativeTarget "ShowerAlarmUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4792B2324F0A7A10089E826 /* Debug */,
+				E4792B2424F0A7A10089E826 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E4792AEA24F0A7A00089E826 /* Project object */;
+}
